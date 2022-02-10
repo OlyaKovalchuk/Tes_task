@@ -14,8 +14,7 @@ class AuthorsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         body: BlocBuilder(
-            bloc: BlocProvider.of<PhotoBloc>(context)
-              ..add(InitEvent()),
+            bloc: BlocProvider.of<PhotoBloc>(context)..add(InitEvent()),
             builder: (context, state) {
               if (state is Loading) {
                 return loadingView();
@@ -26,9 +25,5 @@ class AuthorsScreen extends StatelessWidget {
               }
               return errorView('Error');
             }));
-  }}
-
-
-
-
-
+  }
+}

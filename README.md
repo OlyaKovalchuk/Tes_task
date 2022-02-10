@@ -1,10 +1,16 @@
-## Test task
+# test_task
 
-#### Использовала пакет http для получение данных через API;
-#### Для стейт менеджмента выбрала Bloc, хотя можно было бы сделать через StreamBuilder, но думаю, что для более читаемого кода лучше подходит Bloc;
-#### Использовала BLoc последней версии, она откличается от предыдущих.
+A new Flutter project.
 
-## Было потрачено 4 часа:
-#### * на верстку: до 1 часа;
-#### * написание логики 2 часа:
-#### * подключала логику с версткой 1 час.
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+
+For help getting started with Flutter, view our
+[online documentation](https://flutter.dev/docs), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.

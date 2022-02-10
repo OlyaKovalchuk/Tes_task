@@ -44,7 +44,7 @@ class Urls {
 
   Urls.fromJson(Map<String, dynamic> json) {
     full = json['full'];
-    small = json['full'];
+    small = json['small'];
   }
 
   Map<String, dynamic> toJson() {

@@ -9,6 +9,6 @@ void main() {
       create: (BuildContext context) => PhotoBloc(Repository()),
       child: const MaterialApp(
         debugShowCheckedModeBanner: false,
-        home:  AuthorsScreen(),
+        home: AuthorsScreen(),
       )));
 }
