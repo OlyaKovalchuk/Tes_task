@@ -10,6 +10,19 @@ class FullPhotoScreen extends StatelessWidget {
     return Image.network(
       urlImage,
       fit: BoxFit.contain,
+      loadingBuilder: (BuildContext context, Widget child,
+          ImageChunkEvent? loadingProgress) {
+        if (loadingProgress == null) return child;
+        return const Center(
+          child: SizedBox(
+            width: 20,
+            height: 20,
+            child: CircularProgressIndicator(
+              strokeWidth: 2,
+            ),
+          ),
+        );
+      },
     );
   }
 }
